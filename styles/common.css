@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.button-green {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #1DD1A1;
+  border-radius: 10px;
+  transition: all .3s;
+}
+.button-green:hover{
+  transform: scale(1.1);
+}

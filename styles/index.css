@@ -1,0 +1,76 @@
+header{
+  width: 100%;
+  height: 100vh;
+  background: url('../svg-backgrounds/hero.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  position: fixed;
+  top: 20px;
+  left: 40px;
+  width: 80%;
+  justify-items: stretch;
+}
+
+nav .logo-container{
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+nav .logo-container a{
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+nav .logo-container a img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+nav .menu-container{
+  width: 50%;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+nav .menu-container a{
+padding: 10px 0;
+  margin: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav .menu-container a.active{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.50);
+}
+nav .logo-container a:hover,
+nav .menu-container a:hover{
+  opacity: .8;
+}
+
+header div{
+  width: 45%;
+}
+header div h1,
+header div p{
+  margin-bottom: 20px;
+}
+header div h1{
+  color: #fff;
+  font-size: 80px;
+}
+header div p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+}
